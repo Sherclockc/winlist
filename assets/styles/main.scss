@@ -1,0 +1,14 @@
+/* assets/styles/main.scss */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  color: #333;
+  margin: 0;
+  padding: 20px;
+}
+
+$breakpiont: (
+  mobile: 600px,
+  tablet: 900px,
+  desktop: 1200px
+)
