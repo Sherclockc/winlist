@@ -49,19 +49,19 @@
    ai提供的优化建议：
    ```css
     @media (max-width: 768px) {
-  .card-wrapper {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .cta-button {
-    width: 100%;
-  }
-}
+     .card-wrapper {
+       flex-direction: column;
+       align-items: center;
+     }
+   
+     .cta-button {
+       width: 100%;
+     }
+   }
    ```
    效果：快速解决了手机端样式错乱问题，提升了移动端用户体验。后续将该写法拓展到其他区域，如 FAQ、Header 模块。
 
-  3. 模态框弹窗关闭体验不佳
+3. 模态框弹窗关闭体验不佳
   初版模态框只能通过点击关闭按钮 (✕) 关闭，用户点击黑色背景无反应，体验不佳。
   ai提供的优化建议：
   - 为背景容器添加 @click.self="closeModal"；
